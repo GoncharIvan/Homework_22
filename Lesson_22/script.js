@@ -1,9 +1,9 @@
-// let arr = ['Mike','Nicola','Tom'];
-// console.log(arr[1])
-// console.log(arr.splice(1, 1, 'Alex'))
-// console.log(arr.splice(1, 2))
-// console.log(arr)
-// console.log(arr.length);
+let arr = ['Mike','Nicola','Tom'];
+console.log(arr[1])
+console.log(arr.splice(1, 1, 'Alex'))
+console.log(arr.splice(1, 2))
+console.log(arr)
+console.log(arr.length);
 
 
 //---------------------------------------
@@ -55,19 +55,26 @@
 //---------------------------------------------
 
 
-let users = [{id: 1, age: 17},
-            {id: 2, age: 18},
-            {id: 3, age: 19},
-            {id: 4, age: 21},
-            {id: 5, age: 17},
-            {id: 6, age: 20},
-            {id: 7, age: 25},
-];
+// let users = [{id: 1, age: 17},
+//             {id: 2, age: 18},
+//             {id: 3, age: 19},
+//             {id: 4, age: 21},
+//             {id: 5, age: 17},
+//             {id: 6, age: 20},
+//             {id: 7, age: 25},
+// ];
 
-let calc = users.filter((id) => id.age > 18 && id.age < 21)
-let age = ['age: 19','age: 20']
-console.log(age.indexOf('age: 19', 'age: 20'))
-console.log(calc)
+// users.forEach((user) => {
+//     if (user.age > 18 && user.age < 21)
+//     console.log(user.id)
+// })
+
+
+
+
+
+
+
 
 
 
