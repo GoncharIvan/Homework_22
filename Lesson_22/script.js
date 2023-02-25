@@ -1,9 +1,9 @@
-let arr = ['Mike','Nicola','Tom'];
-console.log(arr[1])
-console.log(arr.splice(1, 1, 'Alex'))
-console.log(arr.splice(1, 2))
-console.log(arr)
-console.log(arr.length);
+// let arr = ['Mike','Nicola','Tom'];
+// console.log(arr[1])
+// console.log(arr.splice(1, 1, 'Alex'))
+// console.log(arr.splice(1, 2))
+// console.log(arr)
+// console.log(arr.length);
 
 
 //---------------------------------------
@@ -26,7 +26,6 @@ console.log(arr.length);
 // }
 // console.log(sum(resultA,resultB))
 
-
 //-------------------------------------------
 
 
@@ -37,19 +36,18 @@ console.log(arr.length);
 //--------------------------------------------
 
 
-// let a = [5, 3, 8, 5, 3, 2, 1, 2];
-// let b =  [];
+let a = [5, 3, 8, 5, 3, 2, 1, 2];
+let b =  [];
 
-// const uniqArray = a.filter((item,index) => {
-//     return index === a.indexOf(item);
-// })
+const uniqArray = a.filter((item,index) => {
+    return index === a.indexOf(item);
+})
 
-// uniqArray.forEach((item) => {
-    
-//     b.push(item)
-// })
+uniqArray.forEach((item) => { 
+    b.push(item)
+})
 
-// console.log(b)
+console.log(b)
 
 
 //---------------------------------------------
@@ -74,6 +72,8 @@ console.log(arr.length);
 
 
 
+// let calc = users.filter((user) => user.age > 18 && user.age < 21)
+// console.log(calc)
 
 
 
